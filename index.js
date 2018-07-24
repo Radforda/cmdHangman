@@ -79,7 +79,7 @@ var checkWinLose=function(){
         return;
     }
     
-    if(correct===currentWord.length){
+    if(previousNumberCorrect===currentWord.length){
         console.log("\n you win!!!");
         console.log("\n---------------------------------------------------------\n");
         numberOfWords++;
@@ -115,12 +115,6 @@ function startGame(){
 
     promptUser();
 }
-
-
-
-
-
-
 
 
 startGame();
